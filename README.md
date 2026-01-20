@@ -1,32 +1,31 @@
-# Proyecto ATD
+﻿# 🌐 Página Web del Proyecto ATD
 
-Repositorio organizado para el proyecto acad�mico ATD.
+Esta carpeta contiene la **página web completa** del proyecto, desarrollada con **PHP** y recursos multimedia.
 
-## ?? Estructura del Repositorio
+## 🚀 Contenido
+- **Archivos PHP** (20 archivos): Páginas dinámicas del sitio
+- **Imágenes** (27 archivos): Fotografías de todas las comunidades autónomas
+- **Recursos visuales**: Logos y elementos gráficos
 
-### **pagina-web/**
-Contiene todos los archivos para la **p�gina web funcional** que se despliega en Render:
-- Archivos PHP
-- HTML, CSS, JavaScript
-- Im�genes y recursos multimedia
-- Configuraci�n para despliegue
+## 📁 Estructura principal
+\\\
+index.php           → Página principal
+autonoma.php        → Página de comunidades autónomas
+detalle-*.php       → Páginas de detalle por región (18 archivos)
+ranking.php         → Sistema de rankings
+*.jpg               → Imágenes de cada comunidad
+\\\
 
-### **request/**
-Contiene el **c�digo fuente y an�lisis** del proyecto:
-- Jupyter Notebooks (.ipynb)
-- Scripts de procesamiento (Python, R, etc.)
-- Conjuntos de datos
-- Documentaci�n t�cnica
+## 🌍 Despliegue en Render
+Esta página está configurada para desplegarse en **Render.com**:
+- **Runtime**: PHP
+- **Start Command**: \php -S 0.0.0.0:\\
+- **Root Directory**: \/pagina-web\
 
-## ?? Despliegue de la P�gina Web
-1. **Conectar Render** a este repositorio
-2. **Root Directory**: /pagina-web
-3. **Runtime**: PHP
-4. **Start Command**: php -S 0.0.0.0:$PORT
+## 🔗 Acceso
+- **Local**: \http://localhost/ATD/\
+- **Producción**: \https://tu-app.onrender.com/\
 
-## ?? An�lisis de Datos
-- Los notebooks y scripts est�n en /request
-- Usar Jupyter o entornos de desarrollo para ejecutar
+---
 
-## ?? Autor
-Marcos - Proyecto acad�mico ATD
+*Proyecto académico ATD - Desarrollo Web con PHP*
