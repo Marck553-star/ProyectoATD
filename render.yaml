@@ -1,0 +1,10 @@
+﻿services:
+  - type: web
+    name: proyecto-atd-web
+    env: php
+    rootDir: /pagina-web
+    buildCommand: ""
+    startCommand: php -S 0.0.0.0:
+    healthCheckPath: /index.php
+    autoDeploy: true
+    branch: main
