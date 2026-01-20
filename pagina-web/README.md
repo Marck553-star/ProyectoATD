@@ -1,13 +1,13 @@
-﻿# 🌐 Página Web del Proyecto ATD
+﻿# Página Web del Proyecto ATD
 
-Esta carpeta contiene la **página web completa** del proyecto, desarrollada con **PHP** y recursos multimedia.
+Esta carpeta contiene la página web completa del proyecto, desarrollada con PHP y recursos multimedia.
 
-## 🚀 Contenido
+## Contenido
 - **Archivos PHP** (20 archivos): Páginas dinámicas del sitio
 - **Imágenes** (27 archivos): Fotografías de todas las comunidades autónomas
 - **Recursos visuales**: Logos y elementos gráficos
 
-## 📁 Estructura principal
+## Estructura principal
 \\\
 index.php           → Página principal
 autonoma.php        → Página de comunidades autónomas
@@ -16,16 +16,12 @@ ranking.php         → Sistema de rankings
 *.jpg               → Imágenes de cada comunidad
 \\\
 
-## 🌍 Despliegue en Render
-Esta página está configurada para desplegarse en **Render.com**:
+## Despliegue en Render
+Esta página está configurada para desplegarse en Render.com:
 - **Runtime**: PHP
-- **Start Command**: \php -S 0.0.0.0:\\
-- **Root Directory**: \/pagina-web\
-
-## 🔗 Acceso
-- **Local**: \http://localhost/ATD/\
-- **Producción**: \https://tu-app.onrender.com/\
+- **Start Command**: php -S 0.0.0.0:\
+- **Root Directory**: /pagina-web
 
 ---
 
-*Proyecto académico ATD - Desarrollo Web con PHP*
+Proyecto académico ATD - Desarrollo Web con PHP
