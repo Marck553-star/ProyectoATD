@@ -1,0 +1,23 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+
+# Variables de entorno
+.env
+.env.local
+
+# Dependencias
+node_modules/
+vendor/
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
+
+# Archivos grandes (si los hay)
+*.zip
+*.tar.gz
+datos/*.csv   # Excluir datasets grandes si es necesario
